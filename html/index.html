@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+{{ define "index" }}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registration</title>
+</head>
+    <body>
+        <p><input type="text" name="name" required pattern="[A-Za-zА-Яа-яЁё]"> Name <Br></p>
+        <input type="text" name="lastnane" required pattern="[A-Za-zА-Яа-яЁё]"> LastName <Br>
+        <input type="email" name="email" required> E-Mail <Br>
+        <input type="text" name="number" value="+996" required pattern="[0-9]">
+
+    </body>
+</html>
+
+{{ end }}
